@@ -1,0 +1,40 @@
+.body{
+    background: linear-gradient(125deg,#3452ff,#ff1053)!important;
+    background-color: #3452ff!important;
+    color: #fff!important
+   
+}
+.logo,.footer{
+   
+    /* box-shadow: 1px 1px 15px 0 rgba(112, 36, 94, 0.45) */
+    background-color: rgb(186, 202, 205);
+   
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+}
+.btn
+{
+    background-color: cadetblue; 
+    color: black;
+}
+.list{
+    list-style: none !important;
+
+  }
+
+/* for mobile devices we write media query */
+@media only screen and (max-width:576px) {
+    .logo{
+        text-align: auto;
+        padding-left: 20px; 
+        float: none;
+      display: flex;
+      justify-content: center;
+   
+        
+    }
+header .nav ul {
+    justify-content: center !important;
+}
+}
